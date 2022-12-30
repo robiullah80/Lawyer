@@ -1,0 +1,301 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 1.7em;
+
+} 
+h1, h2, h3, h4, h5, h6,{
+ font-family: 'Montserrat', sans-serif;
+
+
+}img{
+  max-width: 100%;
+  height: auto;
+}
+a{
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
+
+
+
+/* global css code here */
+.title{
+  width: 100%;
+}
+.title h1{
+   font-size: 48px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.4em;
+  color: #28377e;
+  margin: 0px 0px 20px;
+}
+
+
+/*header code start*/
+.header{
+  width: 100%;
+  background: #fff;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link{
+  font-size: 14px;
+  font-weight: 600px;
+  text-transform: uppercase;
+  margin: 0px 0px 0px 20px;
+  color: #28377e;
+  transition: 2s;
+
+
+}
+.header .navbar-expand-lg .navbar-nav .nav-link:hover{
+  color: #f15d2b;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link:focus{
+ color: #f15d2b; 
+}
+/* slider code start */
+
+.section{
+  width: 100%;
+  padding: 35px 0px;
+  background: url(../images/sliderbd.png) center top no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.inner-slider{
+  width: 100%;
+  padding: 150px 0px 50px;
+}
+.inner-slider h1{
+  font-size: 64px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.4em;
+  color: #fff;
+}
+.inner-slider .arrow{
+  width: 100%;
+  padding: 170px 0px 0px;
+}
+.inner-slider .arrow .fa{
+  font-size: 35px;
+  color: #fff;
+
+}
+.about-us{
+  width: 100%;
+  padding: 80px 0px;
+}
+.about-us .title{
+  margin: 50px 0px 0px;
+}
+.about-us .title p{
+  font-size: 14px;
+  line-height: 1.4em;
+  color: #b0b0b1;
+}
+.inner-img{
+  width: 100%;
+  text-align: right;
+}
+/*waht we code start*/
+
+.what-we{
+  width: 100%;
+  padding: 80px 0px;
+  background: url(../images/ffbg.png) center top no-repeat;
+  background size: cover;
+}
+.what-we .card{
+  border-radius: 0px;
+}
+.what-we .title{
+  text-align: center;
+  padding: 0px 0px 50px;
+}
+.what-we .card .card-heading{
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  transform: translate(0%, 50%);
+  top: 50%;
+  left: 0%;
+}
+.what-we .card .card-heading .card-title{
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.4em;
+  text-transform: uppercase;
+  color: #fff;
+}
+.what-we .card .long-arrow{
+width: 100%;
+}
+.what-we .card .long-arrow img{
+  position: absolute;
+  bottom: 15%;
+  left: 40%;
+  transform: translate(50%, 50%);
+
+}
+.our-attorney{
+  width: 100%;
+  padding: 80px 0px;
+  background: url("../images/fffbg.png") center top no-repeat;
+  background-size: cover;
+}
+.our-attorney .title{
+  margin: 90px 0px 0px;
+}
+.our-attorney .title h1{
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.4em;
+  margin: 0px 0px 20px;
+}
+.our-attorney .title p{
+  font-size: 14px;
+  line-height: 1.4em;
+  color: #b0b0b1;
+}
+.our-attorney .title .btn-link{
+padding: 0px;
+text-decoration: none;
+font-size: 14px;
+font-weight: 600;
+text-transform: uppercase;
+letter-spacing: 2px;
+color: #f2622c;
+}
+.our-attorney .title .btn-link:hover{
+  color: #fff;
+}
+.our-attorney .title .btn-link:focus{
+  color: #fff;
+}
+.our-attorney .card{
+  border-radius: 0px;
+  border: 0px;
+    margin: 0px 0px 25px;
+}
+.our-attorney .card .card-img{
+  border-radius: 0px;
+
+}
+ .our-attorney .card-heading{
+position: absolute;
+width: 100%;
+bottom: 10%;
+left: 8%;
+ }
+ .our-attorney .card-heading .card-title{
+    font-size: 22px;
+  font-weight: 600;
+  line-height: 1.4em;
+  text-transform: uppercase;
+  color: #fff;
+ }
+ .language{
+  width: 100%;
+  padding: 80PX 0PX;
+
+ }
+  .language .title{
+    text-align: center;
+    padding: 0px 0px 80px;
+  }
+  .innner-language{
+    width: 100%;
+    padding: 20px;
+  }
+   .innner-language h4{
+   font-size: 22px;
+  font-weight: 700;
+  line-height: 1.4em;
+  text-transform: uppercase;
+  color: #28377e;
+   }
+    .innner-language p{
+        font-size: 14px;
+  line-height: 1.7em;
+  color: #b0b0b1;
+}
+.innner-language .btn-link{
+padding: 0px;
+text-decoration: none;
+font-size: 14px;
+font-weight: 600;
+text-transform: uppercase;
+letter-spacing: 2px;
+color: #f2622c;
+}
+ .innner-language.btn-link:hover{
+  color: #28377e;
+}
+ .innner-language .btn-link:focus{
+  color: #28377e;
+}
+.contact {
+  width: 100%;
+  padding: 80px 0px;
+  background: #28377e;
+}
+.contact .title{
+  text-align: center;
+  padding: 0px 80px 0px;
+}
+.contact .title h1{
+  color: #fff;
+}
+.contact-form{
+  width: 100%;
+
+}
+.contact-form .form-control{
+  background: transparent;
+  color: #fff;
+  border-radius: 0px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 1px solid #fff;
+  padding: 10px 0px;
+
+}
+.contact-form input::placeholder, .contact-form textarea::placeholder{
+  color: #fff;
+}
+.contact-form .form-control:focus{
+  color: #212529;
+  background: transparent;
+  border-color: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.0rem rgb(13 110 253 / 25%);
+}
+.contact-form  .btn-primary{
+  display: inline-block;
+  margin: 40px 0px 0px;
+  background: #f2622c;
+  color: #fff;
+  border: 1px solid #f2622c;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+
+}
+.contact-form  .btn-primary:hover{
+    background: #transparent;
+  color: #f2622c;
+  border: 1px solid #f2622c;
+}
